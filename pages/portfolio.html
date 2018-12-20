@@ -2,9 +2,9 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>projekt 3</title>
-<link href="stylesheet.css" rel="stylesheet" type="text/css">
-<link href="simplegrid.css" rel="stylesheet" type="text/css">
+<title>Portfolio</title>
+<link href="../stylesheets/stylesheet.css" rel="stylesheet" type="text/css">
+<link href="../stylesheets/simplegrid.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 </head>
 
@@ -14,7 +14,7 @@
 	<nav role="navigation">
   <div id="menuToggle">
     
-    <input type="checkbox" />
+    <input type="checkbox"/>
     
     <span></span>
     <span></span>
@@ -24,7 +24,7 @@
     <a class="navlink" href="tideligere_arbejde.html"><li>Andet arbejde</li></a>
 	<a class="navlink navStudie" href="#"><li>Studie projekter</li></a>
     <a class="navlink" href="flow_1_test.html"><li>- Projekt 1</li></a>
-    <a class="navlink" href="flow_2_test.html"><li>- Projekt 2</li></a>
+    <a class="navlink" href="flow_2.html"><li>- Projekt 2</li></a>
     <a class="navlink" href="flow_3.html"><li>- Projekt 3</li></a>
     <a class="navlink" href="flow_4.html"><li>- Projekt 4</li></a>
     <a class="navlink" href="learning.html"><li>- Lærings proces</li></a>
@@ -35,13 +35,12 @@
 		</div>	
 	</nav>	
 	</div>
-	
 	<div class="grid grid-pad"><!-- start på grid grid-pad-->
 		<div class="logo"><!-- start logo-->
 			<div class="col-3-12"><!--div logo grid-->
-				<a href="../portfolio_index.html">
+				<a href="portfolio_index.html">
 			<img class="logo" src="../img/stempel/logo.png" alt="logo">
-					</a>
+			</a>
 			</div> <!-- slut logo-->
 		</div><!--slut logo grid-->
 		
@@ -54,7 +53,7 @@
     </button>
     <div class="dropdown-content"> <!-- div drop.content-->
       <a href="flow_1_test.html">Projekt 1</a>
-      <a href="flow_2_test.html">Projekt 2</a>
+      <a href="flow_2.html">Projekt 2</a>
       <a href="flow_3.html">Projekt 3</a>
       <a href="flow_4.html">Projekt 4</a>
       <a href="learning.html">Lærings proces</a>
@@ -65,32 +64,35 @@
 		<a href="kontakt.html">Kontakt</a>
 	</div> <!-- slut grid navbar -->
 </div><!--slut div navbar-->
-	</div>
 	
-	<h1>Byg en App</h1>
 	
-<footer>	
-	<div class="footer">
-	<div class="copy">
-		&copy; copyright Amanda Skaarup
+	<h1>Portfolio</h1>	
+	
+	<p>Klik ind på billederne og se mere og læs mere om de forskellige projeker jeg har været igennem. Det er meget blandet, hvad jeg har lavet endtil nu da jeg stadig er i min lærings proces om, hvem jeg er som designer.</p>
+	
+	
+<div class="row">
+  <div class="column">
+	  <a href="../pages/kortspil.html">
+    <img src="../img/kortspil/bagside.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor" alt=""></a>
+  </div>
+  <div class="column">
+	  <a href="../pages/redesign.html">
+    <img src="../img/rekreation/Camilla0.2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor" alt=""></a>
+  </div>
+  <div class="column">
+	  <a href="">
+    <img src="../img/stempel/Unavngivet.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor" alt=""></a>
+  </div>
+  <div class="column">
+	  <a href="">
+    <img src="../img/Swing/swin_uv26.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor" alt=""></a>
+  </div> 
+  <div class="column">
+	  <a href="">
+    <img src="../img/tegninger/IMG_2157.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor" alt=""></a>
+  </div>
 	</div>
-
-<div>
-	<a href="https://www.facebook.com/amanda.skaarup" target="_blank" ></a>
-	<img class="facebook" src="../img/icon/facebook.png" alt="facebook">
-</div>
-<div>
-	<a href="https://www.linkedin.com/in/amanda-nordahl-skaarup-115a8016b/" target="_blank">
-	<img class="linkedin" src="../img/icon/linkedin.png" alt="linkedin">
-	</a>
-</div>
-<div>	
-	<a href="https://www.instagram.com/amanda_nordahl/?hl=da" target="_blank">
-	<img class="instagram" src="../img/icon/instagram.png" alt="instagram">
-	</a>
-</div>
-	</div>
-</footer>
 	
 </body>
 </html>
