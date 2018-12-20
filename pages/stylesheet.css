@@ -52,19 +52,25 @@ table {
 
 /*-----------MINE--------------*/
 
- h1 {
-	margin: 20px 0px 20px 150px;
-	padding-bottom: 20px;
-	color: #830015;
-	text-transform: uppercase;
-	font-size: 30px;
-	position: absolute;
-	float: left;
-}
 
 body {
 	background: #E2E2E2;
 	font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+	font-size: 30px;
+	margin-top: 40px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+.p_kort{
+	width: 600px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .bagg {
