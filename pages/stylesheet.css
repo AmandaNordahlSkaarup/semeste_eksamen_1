@@ -51,7 +51,7 @@ table {
 }
 
 /*-----------MINE--------------*/
-
+p {line-height: 20px;}
 
 body {
 	background: #E2E2E2;
@@ -667,7 +667,25 @@ h2 {
 	position: relative;
 	
 	margin: 0 30px;
+	margin-bottom: 200px;
 }
+
+.semester {
+  border-color: #830015;
+  color: #830015;
+	border: 2px solid black;
+  background-color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 50px;
+border-radius: 5px;
+}
+
+.semester:hover {
+  background: #830015;
+  color: white;
+ }
 
 .proces {
 	margin: 80px 0;
@@ -697,6 +715,8 @@ h2 {
 .ps {width: 60%; background-color: #830015;} 
 .ill {width: 80%; background-color: #830015;} 
 .ID {width: 20%; background-color: #830015;} 
+.XD {width: 40%; background-color: #830015;} 
+.Dream {width: 30%; background-color: #830015;} 
 
 /*-------------KONTAKT---------------*/
 
